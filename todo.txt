@@ -1,10 +1,16 @@
-Hacer escopeta // 50% ??
-hacer HTML y CSS? // 60%
+Ajustar visuales del juego (CSS)
+
+Sistema turnos, que se maneje automaticamente
+-switch con cada accion (menos auto disparo con bala falsa)
+-switch cuando timer de tiempo llegue a 0
+-crear timer de tiempo
+
 Hacer sistema de Partida (Turnos, Opciones de juego, etc)
-Hacer jugadores y pulir sus funciones
+
+Conectar contador de balas a sus variables y displays
+
 Hacer items
 
 hacer bundle para los scripts
 
-display vida
-recarga automatica
+recarga automatica al inicio de la partida, y cada vez que la escopeta tenga 0 balas (borrar boton de recarga auto?)
