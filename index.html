@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Manolo Roulette</title>
+</head>
+<body>
+    <h1>Roulette</h1>
+
+    <div id="table-container">
+        <div id="table">
+
+        </div>
+        
+        <div id="table-info">
+            <div class="display-vida">
+                <h2 id="display-vida-info">Updatear</h2>
+            </div>
+
+            <div class="display-attack">
+                <h2 id="display-attack-info">Informacion Ataques</h2>
+            </div>
+
+            <div class="display-turn">
+                <h2 id="display-turn-info">Turno de: </h2>
+            </div>
+
+            <div class="display-counter">
+                <div class="display-counter-balas-info-cont"><h2 id="display-counter-balas-info">Balas Restantes:</h2></div>
+                <div class="display-counter-real-info-cont"><h2 id="display-counter-real-info">Balas Reales: </h2></div>
+                <div class="display-counter-fake-info-cont"><h2 id="display-counter-fake-info">Balas Fake: </h2></div>
+            </div>
+        </div>
+    </div>
+    <h1 id="player1-name">Nombre Jugador 1</h2>
+
+    <button id="P1-Self" type="button">You</button>
+    <button id="P1-Attack" type="button">Enemy</button>
+
+    <h1 id="player2-name">Nombre Jugador 2</h2>
+
+    <button id="P2-Self" type="button">You</button>
+    <button id="P2-Attack" type="button">Enemy</button>
+
+    <h2>Botones</h2>
+
+    <button id="InfoUpdate">Info Update</button>
+
+    <button id="VidaUpdate">Vida Update</button>
+
+    <button id="Recargar">Recargar</button>
+
+    <h2>Cambiar Nombres</h2>
+
+    <form>
+        <label for="">Jugador 1</label>
+        <input id="player1-name-new" type="text">
+        <button type="reset" id="change-player1-name">Enter</button><br><br>
+
+        <label for="">Jugador 2</label>
+        <input id="player2-name-new" type="text">
+        <button type="reset" id="change-player2-name">Enter</button>
+    </form>
+    <!--Meter en un bundle todos los scripts-->
+    <script type="module" src="partida.js"></script>
+    <script type="module" src="escopeta.js"></script>
+    <script type="module" src="player.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Hacer escopeta // 50% ??
+hacer HTML y CSS? // 60%
+Hacer sistema de Partida (Turnos, Opciones de juego, etc)
+Hacer jugadores y pulir sus funciones
+Hacer items
+
+hacer bundle para los scripts
+
+display vida
+recarga automatica
